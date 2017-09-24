@@ -1,0 +1,3 @@
+aws cloudformation create-stack --region us-east-2 --stack-name test-stack --template-body file:///home/hector/develop/architecture/serverless/book/cloudformation.test.template
+aws cloudformation update-stack --region us-east-2 --stack-name test-stack --template-body file:///home/hector/develop/architecture/serverless/book/cloudformation.test.template
+aws cloudformation delete-stack --region eu-east-2 --stack-name test-stack
